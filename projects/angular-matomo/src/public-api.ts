@@ -1,5 +1,5 @@
 /*
- * Public API Surface of ngx-matomo
+ * Public API Surface of angular-matomo
  */
 
 export * from './lib/matomo-injector.service';

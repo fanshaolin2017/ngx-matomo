@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-import { MatomoTracker, MatomoInjector } from 'ngx-matomo';
+import { MatomoTracker, MatomoInjector } from 'angular-matomo';
 
 /**
  * Main component of the demo application.
@@ -29,7 +29,7 @@ export class AppComponent implements OnInit, AfterViewInit {
    */
   ngOnInit() {
     this.matomoTracker.setUserId('UserId');
-    this.matomoTracker.setDocumentTitle('ngx-Matomo Test');
+    this.matomoTracker.setDocumentTitle('angular-matomo Test');
   }
 
   /**
